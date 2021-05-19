@@ -791,11 +791,24 @@ body {
 
   .modal {
     min-width: 100%;
-    /* min-height: 100%; */
-    padding: 0 30px 30px 30px;
+    min-height: 100%;
+    padding: 30px 20px 20px;
+  }
+
+  .modal-text {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .modal-text p:not(:last-child) {
+    margin-bottom: 5px;
+  }
+
+  .modal-title {
+    margin-top: 0;
   }
 
   .modal-btn {
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
   }
 }
